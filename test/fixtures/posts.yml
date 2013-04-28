@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  title: 'Interview'
+  content: "Il y a quelques jours, une équipe d'étudiants est passée dans mon entreprise pour faire un petit reportage sur les gens dans la vie active. Quand ils ont appris que je venais du même endroit, ils m'ont demandé s'ils pouvaient me poser quelques questions. Ils sont revenus quelques jours plus tard avec toute leur panoplie d'équipe de tournage."
+  draft: false
+# column: value
+#
+two: {}
+#  column: value
