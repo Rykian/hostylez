@@ -1,4 +1,5 @@
 Hostylez::Application.routes.draw do
+  get ':slug', :to => 'blog#show'
   root :to => 'blog#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.

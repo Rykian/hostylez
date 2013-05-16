@@ -6,9 +6,38 @@
 #
 one:
   title: 'Interview'
-  content: "Il y a quelques jours, une équipe d'étudiants est passée dans mon entreprise pour faire un petit reportage sur les gens dans la vie active. Quand ils ont appris que je venais du même endroit, ils m'ont demandé s'ils pouvaient me poser quelques questions. Ils sont revenus quelques jours plus tard avec toute leur panoplie d'équipe de tournage."
+  slug: 'interview'
+  content: |
+    Il y a quelques jours, une équipe d'étudiants est passée dans mon entreprise pour faire un petit reportage sur les gens dans la vie active. Quand ils ont appris que je venais du même endroit, ils m'ont demandé s'ils pouvaient me poser quelques questions. Ils sont revenus quelques jours plus tard avec toute leur panoplie d'équipe de tournage.
+    Malheureusement pour eux, j'ai répondu assez maladroitement aux questions qu'ils ont pu me poser. Je pense que j'ai même pu avoir des propos dénigrant mon ancienne formation alors que ce n'est absolument pas le cas. J'ai des tonnes d'excuses, mais plutôt que de perdre du temps à les exposer ici, je vais plutôt parler de [là d'où je viens](http://src.iut-laval.univ-lemans.fr/) (et tenter de rectifier le tir de façon plus visible et à l'écrit parce que j'y suis plus à l'aise).\n
+    <!-- more -->
+    Comment je suis entré dans la formation
+    -------------------------------------------------------
+    J'ai été attiré par le web bien avant le baccalauréat, c'est même au collège que j'ai commencé à me frotter à FrontPage et aux tableaux HTML sans CSS (oui, maintenant ça paraît peu glorieux, mais je vous jure qu'à l'époque c'était classe). Ensuite, je me suis un peu perdu entre sections scientifiques, arts appliqués et finalement littéraire (ce qui aura été probablement ma meilleure idée) et c'est là qu'est venue l'idée de faire quelque  chose un peu à mi-chemin entre tous les domaines qui me plaisaient.
+    Je suis tombé sur mon __DUT Services et réseaux de communications__ quelques mois avant mon Bac. Ça semblait bien cadrer avec mes hésitations : graphisme, audiovisuel, développement.
+    Ce qu'elle m'a apporté
+    -------------------------------
+    Ayant été très virulent à tort à une époque, je pense que j'ai maintenant un peu plus de recul et que je peux en parler en me trompant moins.
+    Quand j'ai eu les étudiants en face de moi, j'ai parlé du réseau de connaissance que j'ai pu y trouver. Je parle de mes camarades (coucou [Romain](http://twitter.com/Palleas), [Matthieu](http://twitter.com/yiashen) ou [Hugo](http://twitter.com/HugoClery) mais aussi ceux à qui je parle moins mais que j'ai quand même dans le <3), de nos génialissimes enseignants bien entendu, et des relations professionnelles rencontrées lors des stages et de mon alternance.
+    Par contre, le moment où j'ai pas assuré, c'est quand j'ai dit que la formation ne m'avait pas apporté de connaissances, ce qui est bien entendu faux. Je suis arrivé avec mon paquetage de connaissances qui était probablement un peu plus important que la moyenne, mais pas au point de ne rien apprendre. Je m'étais contenté jusqu'alors d'utiliser les outils rapidement, sans comprendre profondément leur fonctionnement, mais je suis maintenant convaincu que ma curiosité à ce sujet a sans aucun doute été stimulée par l'apprentissage des bases et donc par mes cours.
+    Je crois qu'en fait, sans me vanter, j'avais fini par m'ennuyer un peu parce que j'avais réussi à intégrer tout ça très vite et j'aurais souhaité qu'on avance plus vite sans tenir compte de l'ensemble de ma promo. Réaction primaire et égoïste, mais bon, tant pis, c'est du passé et j'ai fini par comprendre réellement qu'il est difficile de gérer ces différences de niveau.
+    Et puis sans ça, je pense que j'aurais été moins apte à apprendre de mon côté : ce que je percevais comme nul à l'époque est en fait une force aujourd'hui.
+    Est-ce que je conseillerais cette formation à d'autres étudiants ?
+    ---------------------------------------------------------------------------------------
+    Bien sûr ! Enfin sauf s'ils aiment la cuisine.
+    Mais si c'est pour faire du développeur web, plus que jamais. J'ai croisé pas mal d'autres personnes venant d'autres formations et qui sont maintenant dans la même branche que moi et à chaque fois que l'on en vient à parler de nos formations j'ai toujours l'impression qu'il leur manque une partie des connaissances qui me semblent pourtant nécessaires.
+    Alors au final...
+    --------------------
+    Durant 3 ans, j'ai été baigné dans l'univers des chefs de projet, des graphistes et des \"communicants\" (oui, parce que les community managers, ça n'existait pas à l'époque) et je pense que c'était un bon avant-goût de ce que pouvait être mon boulot plus tard. Je ne vois pas meilleure et plus simple formation. On ne fait pas dans le superflu, on attise suffisamment notre curiosité pour nous amener à faire des choses de nous-mêmes.
+    Et accessoirement, on peut rencontrer des gens formidables, et pas que dans notre promo (référence aux plus jeunes, mais avec qui je passe au final beaucoup plus de temps ":3")
+    Alors, pour ceux qui ont choisi une formation différente de la mienne : tant pis pour eux, tant mieux pour moi.
+    PS: Pour les étudiants qui sont venus, la prochaine fois, envoyez vos questions avant de voir la personne, ce sera probablement mieux pour tout le monde :-)
+    Et merci à ma #grammarnazi préférée pour les quelques corrections :]
+    Et merci à ma #grammarnazi2 préférée pour les quelques autres corrections :D
   draft: false
+  created_at: 2013-01-23 19:47:42
+  updated_at: 2013-02-01 22:21:18
 # column: value
 #
-two: {}
+#two: {}
 #  column: value
