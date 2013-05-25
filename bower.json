@@ -1,0 +1,13 @@
+{
+  "name": "hostylez",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "2.0.0",
+    "normalize-css": "~2.1.2"
+  }
+}

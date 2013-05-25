@@ -13,6 +13,9 @@ group :development do
   gem 'newrelic_rpm'
   gem 'newrelic_moped'
   gem 'ruby-prof'
+  gem 'guard'
+  gem 'terminal-notifier-guard'
+  gem 'guard-livereload'
 end
 
 # Gems used only for assets and not required
@@ -21,6 +24,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'susy'
   gem 'compass-rails'
+  gem 'sprockets', '2.2.2.backport1'
   #gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
