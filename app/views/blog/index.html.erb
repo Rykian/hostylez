@@ -1,7 +1,13 @@
 <% @posts.each do |post| %>
   <article>
-    <h2><%= link_to post.title, url_for(:action => 'show', :slug => post.slug) %></h2>
-    <p><% markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true) %>
-    <%= raw markdown.render(post.content.split('<!-- more -->').first) %></p>
+    <time datetime="<%= post.created_at %>">
+      <span><%= post.created_at.strftime('%-d/%-m/%Y') %></span>
+      <span><%= post.created_at.strftime('%k:%M') %></span>
+    </time>
+    <div class="content">
+      <h2><%= link_to post.title, url_for(:action => 'show', :slug => post.slug) %></h2>
+      <p><% markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true) %>
+      <%= raw markdown.render(post.content.split('<!-- more -->').first) %></p>
+    </div>
   </article>
 <% end %>

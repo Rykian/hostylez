@@ -1,2 +1,4 @@
-<h2><%= @post.title %></h2>
-<%= markdown(@post.content) %>
+<article>
+  <h2><%= link_to @post.title, url_for(:action => 'show', :slug => @post.slug) %></h2>
+  <%= markdown(@post.content) %>
+</article>

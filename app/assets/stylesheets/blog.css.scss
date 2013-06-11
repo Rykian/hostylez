@@ -1,16 +1,97 @@
 // Place all the styles related to the Blog controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'base';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/border-radius';
+
+
+$font-color: #7F8289;
+$link-color: #DE5E60;
 
 body {
-  background-color: #F5F6F6;
-  color: #55606A;
+  background-color: #2F3238;
+  color: $font-color;
+  font-family: 'Lato', Helvetica, sans-serif;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: #55606A;
+  }
 }
 
 header {
   background-color: #FFF;
+  position: absolute;
+  //margin-top: 6px;
+  height: 22px;
+  width: 100%;
 
   h1 {
-    margin-top: 0;
+    color: #2F3238;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    top: -6px;
+    position: absolute;
+    margin-top: 0px;
+  }
+  p {
+    margin-left: 145px;
+  }
+  p, h1 {
+    display: inline;
+  }
+}
+
+section#content {
+  @include container;
+  padding-top: 28px;
+}
+
+article {
+
+  clear: both;
+
+  time {
+    @include span-columns(2);
+    @include push(1);
+    position: absolute;
+
+    span:first-child {
+      display:block;
+    }
+  }
+
+  time:after {
+    position: absolute;
+    @include push(3);
+    @include span-columns(1);
+    content: '';
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    speak: none;
+    color: white;
+    background-color: $link-color;
+    @include box-shadow(rgba($link-color, 0.5) 0 0 0 8px);
+    @include border-radius(50%);
+    position: absolute;
+  }
+
+  .content {
+    @include push(3);
+    @include span-columns(8);
+
+    p {
+      color: adjust-lightness($font-color, 15);
+      line-height: 1.6em;
+      text-align: justify;
+    }
   }
 }

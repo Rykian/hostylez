@@ -16,6 +16,7 @@ group :development do
   gem 'guard'
   gem 'terminal-notifier-guard'
   gem 'guard-livereload'
+  gem 'meta_request'
 end
 
 # Gems used only for assets and not required
